@@ -1,0 +1,30 @@
+1
+5
+50
+0
+Sistema Solar
+Qual a maior estrela do Sistema Solar & @+-------------------------------------------------------------------------------------------------------+ @[1] - Electra @[2] - Estrela de Bernard @[3] - Sirius @[4] - Vega @[5] - Sol#
+2
+3
+50
+0
+Sistema Solar
+O Sistema Solar possui quantos planetas oficialmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - 9 @[2] - 7 @[3] - 8 @[4] - 10 @[5] - 6#
+3
+2
+100
+100
+Astronomia
+Qual o Nome do centro de um buraco negro onde a luz é incapaz de sair & @+-------------------------------------------------------------------------------------------------------+ @[1] - Disco de acreção @[2] - Horizonte de Eventos @[3] - Singularidade @[4] - Centro Gravitacional @[5] - Espaço Tempo#
+4
+4
+100
+100
+Astronomia
+Qual o nome dado à morte de uma estrela? & @+-------------------------------------------------------------------------------------------------------+ @[1] - Superesplosão @[2] - Explosão Estelar @[3] - Morte Estelar @[4] - Supernova @[5] - Supernova-Estelar#
+5
+2
+200
+300
+Astronomia
+Qual a maior estrela já conhecida atualmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - VY Canis Majoris @[2] - UY Scuti @[3] - Sol @[4] - Arcturus @[5] - Sirius#
