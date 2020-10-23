@@ -10,7 +10,7 @@ void anima(){
 
 historia* importarConjunto(historia *v,int *c){
 	historia h;
-	FILE *f = fopen("historia_1.txt","r");
+	FILE *f = fopen("arquivos-txt/historia_1.txt","r");
 	if(f == NULL){
 		printf("ERROR: nao foi possivel abrir aquivo");
 		exit(1);

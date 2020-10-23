@@ -85,7 +85,7 @@ void artAscii(){
 		char linha[100];
 		char *conseguiuLer;
         //Testando erro ao abrir arquivo
-        if((arq = fopen("logo.txt", "r")) == NULL){
+        if((arq = fopen("arquivos-txt/logo.txt", "r")) == NULL){
             printf("Houve um erro ao abrir o arquivo. O programa sera fechado\n");
             system("pause");
             exit(1);

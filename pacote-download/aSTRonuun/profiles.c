@@ -6,7 +6,7 @@
 
 perfil* importarLista(perfil *v,int *c){
 	int f_len, posiAtual;
-	FILE *f = fopen("perfis.txt","r");
+	FILE *f = fopen("arquivos-txt/perfis.txt","r");
 	if(f == NULL){
 		printf("ERROR: não foi possivel abrir aquivo");
 		exit(1);
@@ -165,7 +165,7 @@ void listarPerfis(perfil v[], int i){
 //Funcao para persistencia de dados em arquivos
 void perfisParaArquivo(perfil v[], int i){
 	
-	FILE *f = fopen("perfis.txt", "w");
+	FILE *f = fopen("arquivos-txt/perfis.txt", "w");
 	if(f == 0){
 		printf("ERRO ao abrir o arquivo");
 		return;
