@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img src = "public/logo.PNG">
+    <img src = "https://ik.imagekit.io/3uewgm6s11/logo_m290rDyF1.png">
 </h1>
 
 ## Inserindo Perfis
 
-<h1>
-    <img src="public/inserir_perfil.gif">
+<h1 align="center">
+    <img src = "https://ik.imagekit.io/3uewgm6s11/inserir_perfil_xwesBVAO_.gif">
 </h1>
 
 # Indice
