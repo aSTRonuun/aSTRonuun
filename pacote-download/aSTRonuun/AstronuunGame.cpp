@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 
 #include "historia.h"
 #include "profiles.h"
@@ -113,7 +112,7 @@ int main(){
 	
 	while(1){
 		//comando para limpar o display
-		system("clear");
+		system("clear || cls");
 		artAscii();
 		
 		//Menu de opcao
@@ -131,7 +130,7 @@ int main(){
 		switch(oper){
 			//1 para chamar funcao inserirPerfil, passando como parametro o vetor e o tamanho
 			case 1: {
-				system("clear");
+				system("clear || cls");
 				artAscii();
 				lista = inserirPerfil(lista,&i);
 				
@@ -139,7 +138,7 @@ int main(){
 			}
 			//2 para chamar a funcao removerPerfil, passando como parametro vetor e tamnho, com a lista de perfis
 			case 2: {
-				system("clear");
+				system("clear || cls");
 				artAscii();
 				listarPerfis(lista, i);
 				lista = removerPerfil(lista,&i);
@@ -147,13 +146,13 @@ int main(){
 			}
 			//3 para chamar a a funcao listar todos os perfis, passando como parametro vetor e tamnho
 			case 3: {
-				system("clear");
+				system("clear || cls");
 				artAscii();
 				listarPerfis(lista, i);
 				break;
 			}
 			case 4: {
-				system("clear");
+				system("clear || cls");
 				artAscii();
 				listarPerfis(lista, i);
 				lista = novahistoria(conjunto, j, lista, &i);
@@ -166,7 +165,7 @@ int main(){
 			}
 			//Se n�o for nenhum dos casos, a operacao � invalida
 			default: {
-				system("clear");
+				system("clear || cls");
 				artAscii();
 				printf("Operacao nao existente");
 				break;

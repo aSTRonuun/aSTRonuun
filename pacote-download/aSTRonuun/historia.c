@@ -1,11 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
+#ifdef _WIN32
+#include <windows.h>
+#else
 #include <unistd.h>
+#endif
 
 #include "historia.h"
 
 void anima(){
+	#ifdef _WIN32
+	Sleep(50);
+	#else
 	usleep(10000);
+	#endif
 }
 
 historia* importarConjunto(historia *v,int *c){
@@ -37,7 +45,7 @@ historia* importarConjunto(historia *v,int *c){
 
 void imprimeHistoria(historia v[],int p){
 	int i=0;
-	system("clear");
+	system("clear || cls");
 	//Imprime o texto com animação de escrita
 	while(v[p].texto[i] != '&'){
 		if(v[p].texto[i] == '@'){
