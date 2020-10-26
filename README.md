@@ -21,6 +21,12 @@
 
 O projeto **aSTRonuun Game** é um software desenvolvido por uma equipe de três alunos, com orientação do Professor **Criston Pereira, Dr. em Ciências da Computação pela PUC-Rio.** O projeto tinha como finalidade, colocar em prática os conhecimentos de programação adiquiridos na disciplina de **Fundamentos de Programação** do curso de Engenharia de Software - UFC, campus Quixadá.
 
+O Software é um **Mini-Game** de perguntas e respostas para que interessados em Física e Astronomia, possam aprender mais sobre essas áreas fantásticas e que é envolta de mistérios.
+
+O programa foi projetado para trazer uma nova abordagem de aprendizado, contando com um sistema de **Gamificação**, que a medida que o usuário
+respondam corretamente os questionamentos, ele pode ganhar XP (Experiência), para conseguir liberar novos conteúdos.
+
+
 
 ---
 
