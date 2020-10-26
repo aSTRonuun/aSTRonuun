@@ -11,7 +11,7 @@
 # Indice
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-e-instalar-o-projeto)
+- [Como baixar e instalar o projeto](#-como-baixar-e-instalar-o-projeto)
 
 
 
@@ -42,7 +42,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias.
 ---
 
 
-## Como baixar e instalar o projeto
+## 💾 Como baixar e instalar o projeto
 
 ```bash
 
