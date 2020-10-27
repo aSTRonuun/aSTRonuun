@@ -9,6 +9,7 @@
 #include "historia.h"
 
 void anima(){
+
 	#ifdef _WIN32
 	Sleep(50);
 	#else
