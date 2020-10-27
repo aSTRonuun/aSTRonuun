@@ -47,8 +47,9 @@ perfil* novahistoria(historia vh[], int p, perfil *vp, int *c){ //Ela muda o val
 								vp[k].xp += vh[j].xp_h;
 								printf("Parabens %s voce acertou!\n", vp[k].nome);
 								printf("XP Ganho: **%d**\n", vh[j].xp_h);
+								imprimeResposta(vh, j);
 							}else{ //Se não errou
-								printf("Voce errou\n");
+								printf("Voce errou.\nTente mais uma vez :)\n");
 								break;
 							}
 						}	

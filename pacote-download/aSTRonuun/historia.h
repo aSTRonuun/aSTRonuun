@@ -8,10 +8,12 @@ typedef struct{
 	int desblock;
 	int status;
 	char titulo[40];
-	char texto[1500];
+	char texto[1000];
+	char respota_texto[1000];
 }historia;
 
 historia* importarConjunto(historia *v,int *c);
 void imprimeHistoria(historia v[],int p);
+void imprimeResposta(historia v[], int p);
 
 #endif

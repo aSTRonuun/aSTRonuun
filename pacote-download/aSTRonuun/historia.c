@@ -38,6 +38,7 @@ historia* importarConjunto(historia *v,int *c){
 		fscanf(f, "%d\n", &v[*c-1].desblock);
 		fscanf(f, "%[^\n]\n", v[*c-1].titulo);
 		fscanf(f, "%[^\n]\n", v[*c-1].texto);
+		fscanf(f, "%[^\n]\n", v[*c-1].respota_texto);
 	}
 	fclose(f);
 	return v; 
@@ -64,6 +65,21 @@ void imprimeHistoria(historia v[],int p){
 		}
 		printf("%c",v[p].texto[i]);
 		i++;
+	}
+	printf("\n");
+}
+
+//Imprime a resposta caso a pessoa tenha acertado;
+void imprimeResposta(historia v[], int p){
+	int i = 0;
+	printf("\n");
+	while(v[p].respota_texto[i] != '#'){
+		if(v[p].respota_texto[i] == '@'){
+			v[p].respota_texto[i] = '\n';
+		}
+		printf("%c", v[p].respota_texto[i]);
+		i++;
+		anima();
 	}
 	printf("\n");
 }
