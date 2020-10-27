@@ -4,27 +4,32 @@
 0
 Sistema Solar
 Qual a maior estrela do Sistema Solar & @+-------------------------------------------------------------------------------------------------------+ @[1] - Electra @[2] - Estrela de Bernard @[3] - Sirius @[4] - Vega @[5] - Sol#
+O Sol é a maior estrela do Sistema Solar e possui 1.391.016 Km de diâmetro.#
 2
 3
 50
 0
 Sistema Solar
 O Sistema Solar possui quantos planetas oficialmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - 9 @[2] - 7 @[3] - 8 @[4] - 10 @[5] - 6#
+Plutão, que seria o 9ª planeta do Sistema Solar, deixou de ser considerado @um planeta em 2006. O motiivo é que possui características @muito diferentes dos demais planetas.#
 3
 2
 100
 100
 Astronomia
 Qual o Nome do centro de um buraco negro onde a luz é incapaz de sair & @+-------------------------------------------------------------------------------------------------------+ @[1] - Disco de acreção @[2] - Horizonte de Eventos @[3] - Singularidade @[4] - Centro Gravitacional @[5] - Espaço Tempo#
+O horizonte de eventos, popularmente conhecido como ponto de não-retorno, @é a fronteira teórica ao redor de um buraco negro a partir da qual @a força da gravidade é tão intensa que, nada, nem mesmo a luz, pode @escapar pois a sua velocidade é inferior à velocidade de escape do buraco negro.#
 4
 4
 100
 100
 Astronomia
 Qual o nome dado à morte de uma estrela? & @+-------------------------------------------------------------------------------------------------------+ @[1] - Superesplosão @[2] - Explosão Estelar @[3] - Morte Estelar @[4] - Supernova @[5] - Supernova-Estelar#
+A morte de uma estrela, chamada Supernova, geralmente é causada pela falta de Hidrogênio - seu combustível.#
 5
-2
+3
 200
 300
 Astronomia
-Qual a maior estrela já conhecida atualmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - VY Canis Majoris @[2] - UY Scuti @[3] - Sol @[4] - Arcturus @[5] - Sirius#
+Qual a maior estrela já conhecida atualmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - VY Canis Majoris @[2] - UY Scuti @[3] - Westerlund 1-26 @[4] - Arcturus @[5] - Sirius#
+Westerlund 1-26 é uma estrela hipergigante vermelha que está @localizada a 11.500 anos-luz da Terra na constelação Ara. @Tem cerca de 5 milhões de anos. Apesar de ser descoberto em 1961, @seu tamanho não era conhecido até 2013. Westerlund 1-26 @é uma estrela tão misteriosa que ninguém sabe o tamanho verdadeiro dela. @Muitos consideram que é maior do que UY Scuti e outro acham que pode ser menor, @mais ainda não se tem certeza desse fato. @Tem uma estimativa superior de 2.544 raios solares ou um tamnho menor @de 1530 raios solares. Portanto, às vezes é @reivindicado como a maior estrela, mesmo que isso não seja confirmado.#
