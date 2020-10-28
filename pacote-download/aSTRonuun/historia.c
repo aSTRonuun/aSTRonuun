@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 #ifdef _WIN32
 #include <windows.h>
 #else
@@ -30,7 +31,7 @@ historia* importarConjunto(historia *v,int *c){
 		(*c)++;
 		v = (historia*) realloc(v, *c * sizeof(historia));
 		if(v == 0){
-			printf("Nao foi possivel inserir Perfil");
+			printf("Nao foi possivel inserir Historias");
 			return v;
 		}
 		fscanf(f,"%d\n",&v[*c-1].id);
@@ -46,6 +47,9 @@ historia* importarConjunto(historia *v,int *c){
 }
 
 void imprimeHistoria(historia v[],int p){
+	//Função para imprimir com acentos da linguá portuguesa
+	setlocale(LC_ALL, "ptb");
+
 	int i=0;
 	system("clear || cls");
 	//Imprime o texto com animação de escrita
@@ -72,6 +76,9 @@ void imprimeHistoria(historia v[],int p){
 
 //Imprime a resposta caso a pessoa tenha acertado;
 void imprimeResposta(historia v[], int p){
+	//Função para imprimir com acentos da linguá portuguesa
+	setlocale(LC_ALL, "ptb");
+
 	int i = 0;
 	printf("\n");
 	while(v[p].respota_texto[i] != '#'){

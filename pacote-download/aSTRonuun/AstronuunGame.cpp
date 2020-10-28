@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 #include "historia.h"
 #include "profiles.h"
 
 //Função nova historia
 perfil* novahistoria(historia vh[], int p, perfil *vp, int *c){ //Ela muda o valor da estruta perfil (XP)
+	//Função para imprimir com acentos da linguá portuguesa
+	setlocale(LC_ALL, "ptb");
+
 	int op,  per, resp; //per = pegar o perfil | resp = pegar a respost das alternativas
 	int teste_p = 0, teste_h=0; // teste_p = verficar se achou o perfil (bool) | teste_h = verificar se achou a historia (bool)
-	printf("Digite o ID do Perfil que deseja iniciar a historia \n>");
+	printf("Digite o ID do Perfil que deseja jogar \n>");
 	scanf("%d", &per); //Primeiro pega-se o perfil
 	do{
 		if(*c > 0){ //Teste saber se a perfis disponiveis
@@ -20,8 +24,8 @@ perfil* novahistoria(historia vh[], int p, perfil *vp, int *c){ //Ela muda o val
 					//Listando as historias
 					printf("\n+----------------------------------------------GAMES---------------------------------------------+\n\n");
 					for(int j=0;j<p;j++){
-						printf("Historia: %s\n", vh[j].titulo);
-						printf("ID Historia: %d\n", vh[j].id);
+						printf("Pergunta: %s\n", vh[j].titulo);
+						printf("ID Pergunta: %d\n", vh[j].id);
 						printf("XP: ** %d **\n", vh[j].xp_h);
 						if(vp[k].xp >= vh[j].desblock){
 							printf("Status: Desbloqueada");
@@ -29,10 +33,10 @@ perfil* novahistoria(historia vh[], int p, perfil *vp, int *c){ //Ela muda o val
 							printf("Status: Bloqueada\n");
 							printf("Quantidade de XP para desbloquear: %d", vh[j].desblock - vp[k].xp);
 						}
-						printf("\n\n+------------------------------------------------+\n\n");
+						printf("\n+------------------------------------------------+\n\n");
 					}
 					//Escolhendo a historia por meio do ID -> ident
-					printf("Escolha a historia \n>");
+					printf("Digite o ID da Pergunta que você quer responder \n>");
 					scanf("%d", &ident);
 					for(int j=0;j<p;j++){
 						if(ident == vh[j].id && vp[k].xp >= vh[j].desblock){
@@ -70,7 +74,7 @@ perfil* novahistoria(historia vh[], int p, perfil *vp, int *c){ //Ela muda o val
 			printf("Faça um perfil na opcao = Inserir Perfil!\n");
 		}
 		//Ao final ou incia uma historia nova ou sai
-		printf("\n[1] - Escolher Nova Historia\n");
+		printf("\n[1] - Escolher Nova Pergunta\n");
 		printf("[0] - Sair\n>");
 		scanf("%d", &op);
 	}while(op != 0);
@@ -110,7 +114,9 @@ int main(){
 	
 	lista = importarLista(lista,&i);
 	conjunto = importarConjunto(conjunto,&j);
-	
+	//Função para imprimir com acentos da língua portuguesa
+	setlocale(LC_ALL, "ptb");
+
 	while(1){
 		//comando para limpar o display
 		system("clear || cls");

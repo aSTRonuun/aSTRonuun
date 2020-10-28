@@ -4,21 +4,21 @@
 0
 Sistema Solar
 Qual a maior estrela do Sistema Solar & @+-------------------------------------------------------------------------------------------------------+ @[1] - Electra @[2] - Estrela de Bernard @[3] - Sirius @[4] - Vega @[5] - Sol#
-O Sol é a maior estrela do Sistema Solar e possui 1.391.016 Km de diâmetro.#
+O Sol é a maior estrela do Sistema Solar e possui 1.391.016 Km de diametro.#
 2
 3
 50
 0
 Sistema Solar
 O Sistema Solar possui quantos planetas oficialmente? & @+-------------------------------------------------------------------------------------------------------+ @[1] - 9 @[2] - 7 @[3] - 8 @[4] - 10 @[5] - 6#
-Plutão, que seria o 9ª planeta do Sistema Solar, deixou de ser considerado @um planeta em 2006. O motiivo é que possui características @muito diferentes dos demais planetas.#
+Plutão, que seria o 9 planeta do Sistema Solar, deixou de ser considerado @um planeta em 2006. O motivo eh que possui caracteristicas @muito diferentes dos demais planetas.#
 3
 2
 100
 100
 Astronomia
-Qual o Nome do centro de um buraco negro onde a luz é incapaz de sair & @+-------------------------------------------------------------------------------------------------------+ @[1] - Disco de acreção @[2] - Horizonte de Eventos @[3] - Singularidade @[4] - Centro Gravitacional @[5] - Espaço Tempo#
-O horizonte de eventos, popularmente conhecido como ponto de não-retorno, @é a fronteira teórica ao redor de um buraco negro a partir da qual @a força da gravidade é tão intensa que, nada, nem mesmo a luz, pode @escapar pois a sua velocidade é inferior à velocidade de escape do buraco negro.#
+Qual o Nome do centro de um buraco negro onde a luz é incapaz de sair & @+-------------------------------------------------------------------------------------------------------+ @[1] - Disco de acrecao @[2] - Horizonte de Eventos @[3] - Singularidade @[4] - Centro Gravitacional @[5] - Espaço Tempo#
+O horizonte de eventos, popularmente conhecido como ponto de nao-retorno, @eh a fronteira teorica ao redor de um buraco negro a partir da qual @a forca da gravidade eh tao intensa que, nada, nem mesmo a luz, pode @escapar pois a sua velocidade eh inferior a velocidade de escape do buraco negro.#
 4
 4
 100
