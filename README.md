@@ -1,10 +1,14 @@
 <h1 align="center">
-    <img src = "https://ik.imagekit.io/3uewgm6s11/logo_m290rDyF1.png">
+    <img src = "pacote-download/aSTRonuun/public/logo.png">
 </h1>
 
 
 # Indice
 - [Sobre](#-sobre)
+- [Previw do Sistema](#-previw-do-sistema)
+- [Inserir e Remover Pefis](#-inserir-e-remover-perfis)
+- [Novo Jogo](#-novo-jogo)
+- [Recursos do Sistema](#-recursos-do-sistema)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como baixar e instalar o projeto](#-como-baixar-e-instalar-o-projeto)
 
@@ -22,6 +26,28 @@ responde corretamente os questionamentos, ele pode ganhar XP (Experiência), par
 
 ---
 
+# 👀 Previw do Sistema
+
+## Inserir e Remover Perfis
+<h1 align="center">
+    <img src = "pacote-download/aSTRonuun/public/inserir-remover_perfil.gif">
+</h1>
+
+## Novo Jogo
+<h1 align="center">
+    <img src = "pacote-download/aSTRonuun/public/novo_jogo.gif">
+</h1>
+
+## 🔧⚙️ Recursos do Sistema
+O sistema conta com algumas funcionalidades extras que dão mais segurança e desempenho.
+Algumas de suas características principais:
+- Memória **alocada dinamicamente**
+- **Persistencia de dados** em arquivos
+- Função dividas em bibliotecas locais separadas
+- **Compilação separada** de bibliotecas
+- **Sistema de Gamificação**
+
+---
 
 ## 🚀 Tecnologias utilizadas
 
@@ -50,6 +76,23 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias.
 
     #Gerar o executável
     g++ AstronuuGame.cpp historia.c profiles.c
+```
+⚠️ OBS - Pré-requisitos para compilação:
+
+Windows
+- [MinGW](http://www.mingw.org/)
+
+Linux
+- GCC atualizado
+```bash
+    #Atualizar as listas de pacotes
+    $ sudo apt update
+
+    #Instale o pacote de compilação
+    $ sudo apt install buid-essentil
+
+    #Confirme a instalação
+    $gcc --version
 ```
 
 ---
