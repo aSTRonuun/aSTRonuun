@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src = "pacote-download/aSTRonuun/public/logo.png">
+    <img src = "https://ik.imagekit.io/3uewgm6s11/GitHub/aSTRonuun_Game/logo_2v-P_aqOo.png">
 </h1>
 
 
@@ -38,7 +38,7 @@ responde corretamente os questionamentos, ele pode ganhar XP (Experiência), par
     <img src = "pacote-download/aSTRonuun/public/novo_jogo.gif">
 </h1>
 
-## 🔧⚙️ Recursos do Sistema
+## ⚙️ Recursos do Sistema
 O sistema conta com algumas funcionalidades extras que dão mais segurança e desempenho.
 Algumas de suas características principais:
 - Memória **alocada dinamicamente**
