@@ -101,3 +101,21 @@ Desenvolvido 💜 por
 - [Vitor Alves](https://github.com/aSTRonuun) (aSTRonuun)
 - Maria Eduarda
 - Renan Sampaio
+
+### Autor
+---
+
+<a href="https://github.com/aSTRonuun">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60976622?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Vitor Alves</b></sub></a> <a href="https://github.com/aSTRonuun" title="GitHub">🚀</a>
+
+
+Feito com ❤️ por Vitor Alves 👋🏽 Entre em contato!
+
+---
+
+## 📝 Linceça
+
+Este projeto esta sobe a licença [MIT](https://github.com/aSTRonuun/aSTRonuun-Game/blob/master/LICENSE).
+
